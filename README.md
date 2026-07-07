@@ -263,6 +263,7 @@ GitHub Repository:
 
 ```
 https://github.com/Haridass-K/resume-screening-se4ml
+```
 
 ---
 
@@ -282,3 +283,101 @@ https://github.com/Haridass-K/resume-screening-se4ml
 # Conclusion
 
 The AI-Powered Resume Screening and Job Role Prediction System successfully demonstrates the integration of Software Engineering for Machine Learning principles with Natural Language Processing and Machine Learning. The application applies the GR4ML framework, implements Pipe-and-Filter and CQRS architectural patterns, and provides a working Streamlit-based prototype for automated resume classification.
+
+
+---
+
+# Important Submission Notes
+
+## Dataset
+
+The original resume dataset is not included in this compressed submission because of the file size limitations of the Taxila LMS.
+
+If retraining the machine learning model is required, download the dataset from:
+
+**Kaggle Resume Dataset**
+
+https://www.kaggle.com/datasets/gauravduttakiit/resume-dataset
+
+Place the downloaded dataset in:
+
+```
+data/Resume.csv
+```
+
+---
+
+## Trained Model
+
+The pre-trained Random Forest model is included in this submission:
+
+```
+models/resume_screening_model.pkl
+```
+
+Therefore, the Streamlit application can be executed directly without retraining the model.
+
+---
+
+## Complete Project
+
+The complete project, including:
+
+- Source code
+- Dataset
+- Jupyter Notebook
+- Architecture diagrams
+- Screenshots
+- Final report
+- Requirements file
+
+is available in the GitHub repository below:
+
+```
+https://github.com/Haridass-K/resume-screening-se4ml
+```
+
+If any supporting file is unavailable in this compressed submission due to LMS upload size limitations, please refer to the GitHub repository.
+
+---
+
+## Running the Project
+
+1. Create the Python environment.
+
+```bash
+conda create -n resume-screening python=3.11
+conda activate resume-screening
+```
+
+2. Install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. If retraining is required, download the dataset and place it in:
+
+```
+data/Resume.csv
+```
+
+4. Launch the Streamlit application.
+
+```bash
+streamlit run app/resume_app.py
+```
+
+Alternatively, open:
+
+```
+notebooks/Group25.ipynb
+```
+
+and execute all cells to regenerate the machine learning model.
+
+---
+
+## Submission Note
+
+This compressed submission has been prepared to comply with the file upload limitations of the Taxila LMS. The GitHub repository contains the complete project and all supporting files required for evaluation.
